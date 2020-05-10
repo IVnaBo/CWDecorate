@@ -1,0 +1,11 @@
+framework module CWDecorate {
+  umbrella header "CWDecorate.h"
+
+  export *
+  module * { export * }
+}
+
+module CWDecorate.Swift {
+    header "CWDecorate-Swift.h"
+    requires objc
+}
